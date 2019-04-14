@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+#title {
+  font-size: 35px;
+  text-align: center;
+}
+#visual {
+text-align: center;
+}
+.bar:hover {
+    fill: #b6e529;
+  }
+.myTool {
+display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: left;
+  width: 150px;
+  height: 70px;
+  padding: 2px;
+  font: 12px;
+  background: lightsteelblue;
+  box-shadow: 1px 1px 10px;
+  border-radius: 2px;
+  pointer-events: none;
+}
