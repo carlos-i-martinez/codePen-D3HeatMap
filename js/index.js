@@ -130,8 +130,8 @@ d3.json(url).then(function (json) {
     " <br/><strong>Month: </strong> " + d3.timeFormat("%B")(d3.timeParse("%m")(d[1])) +
     " <br/><strong>Temp(C): </strong> " + d[3].toFixed(3)).
     attr("data-year", dataset2[i][0]).
-    style("left", d3.event.pageX - 40 + "px").
-    style("top", d3.event.pageY - 30 + "px").
+    style("left", d3.event.pageX + 10 + "px").
+    style("top", d3.event.pageY + 3 + "px").
     style("display", "inline-block").
     style("opacity", 1);
   }).
