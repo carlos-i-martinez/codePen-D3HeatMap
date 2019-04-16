@@ -169,7 +169,7 @@ d3.json(url).then(function(json) {
     .size(64);
     
     var colorHold =['#3399FF','#FFFF00','#66CC00','#FF8000','#FF0000','#CC0000'];
-    var colorScale = d3.scaleOrdinal().domain([5.5,6.5,7.5,8.5,9.5]).range(colorHold);
+    var colorScale = d3.scaleOrdinal().domain([5.5,6.5,7.5,8.5,9.1]).range(colorHold);
     
     //alert(colorScale.range().length)
     legends.append("g").attr("transform","rotate(180)").append("g").attr("class","trianglepointer")
@@ -184,7 +184,7 @@ d3.json(url).then(function(json) {
     .attr("x",function(d,i){ return i*(200/colorScale.range().length) })
     
     // legend text
-    var colorLText=["Below 5.5C","5.5C to 6.5C","6.5C to 7.5C","7.5C to 8.5C","8.5C to 9.5C","> 9.5C"];
+    var colorLText=["Below 5.5C","5.5C to 6.5C","6.5C to 7.5C","7.5C to 8.5C","8.5C to 9.1C","> 9.1C"];
     legends.append("g").attr("class","LegText")
     .attr("transform","translate(0,55)")
     .append("text")
