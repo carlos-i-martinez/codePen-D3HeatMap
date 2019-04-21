@@ -151,12 +151,6 @@ d3.json(url).then(function(json) {
     svgC.append("text")
       .attr("transform","translate(" + (w/2) + " ," + h + ")")
       .text("Year");
-  
-    // Description of the heat map
-    svgC.append("text")
-      .attr("id","description")
-      .attr("transform","translate(" + (w/1.5) + " ," + (h-15) + ")")
-      .text("Heat Map of Temperatures in Celcius");
  
  // Legends section
     legends = svgC.append("g").attr("class","legends")
