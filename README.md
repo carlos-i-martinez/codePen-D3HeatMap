@@ -10,6 +10,8 @@ A Pen created at CodePen.io. You can find this one at https://codepen.io/carlos-
 
  Completed Data Visualization Certification: [Certificate](https://www.freecodecamp.org/certification/carlitos/data-visualization "FreeCodeCamp.Com").
 
+ FreeCodeCamp Public Profile: [Carlos Martinez FreeCodeCamp](https://www.freecodecamp.org/carlitos)
+
 ## Technologies Used:
 > * HTML, JavaScript, CSS and D3.  
 
